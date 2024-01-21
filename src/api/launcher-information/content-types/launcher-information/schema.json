@@ -1,0 +1,22 @@
+{
+  "kind": "singleType",
+  "collectionName": "launcher_informations",
+  "info": {
+    "singularName": "launcher-information",
+    "pluralName": "launcher-informations",
+    "displayName": "LauncherInformation",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "version": {
+      "type": "string"
+    },
+    "lastServersUpdate": {
+      "type": "datetime"
+    }
+  }
+}

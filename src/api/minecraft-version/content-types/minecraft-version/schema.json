@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "minecraft_versions",
+  "info": {
+    "singularName": "minecraft-version",
+    "pluralName": "minecraft-versions",
+    "displayName": "minecraftVersion"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "preview": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "minecraftData": {
+      "allowedTypes": [
+        "files"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
