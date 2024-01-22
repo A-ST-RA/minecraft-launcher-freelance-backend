@@ -778,14 +778,13 @@ export interface ApiLauncherInformationLauncherInformation
     description: '';
   };
   options: {
-    draftAndPublish: true;
+    draftAndPublish: false;
   };
   attributes: {
     version: Attribute.String;
     lastServersUpdate: Attribute.DateTime;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
-    publishedAt: Attribute.DateTime;
     createdBy: Attribute.Relation<
       'api::launcher-information.launcher-information',
       'oneToOne',
@@ -808,6 +807,7 @@ export interface ApiMinecraftVersionMinecraftVersion
     singularName: 'minecraft-version';
     pluralName: 'minecraft-versions';
     displayName: 'minecraftVersion';
+    description: '';
   };
   options: {
     draftAndPublish: false;
@@ -816,6 +816,7 @@ export interface ApiMinecraftVersionMinecraftVersion
     title: Attribute.Media;
     preview: Attribute.Media;
     minecraftData: Attribute.Media;
+    nameServer: Attribute.String;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     createdBy: Attribute.Relation<

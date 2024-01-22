@@ -4,7 +4,8 @@
   "info": {
     "singularName": "minecraft-version",
     "pluralName": "minecraft-versions",
-    "displayName": "minecraftVersion"
+    "displayName": "minecraftVersion",
+    "description": ""
   },
   "options": {
     "draftAndPublish": false
@@ -12,25 +13,31 @@
   "pluginOptions": {},
   "attributes": {
     "title": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "preview": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "minecraftData": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "files"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
+    },
+    "nameServer": {
+      "type": "string"
     }
   }
 }
